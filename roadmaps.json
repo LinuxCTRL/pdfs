@@ -1,0 +1,667 @@
+{
+  "data": {
+    "core_development": [
+      {
+        "path": "/frontend",
+        "title": "Frontend Development",
+        "difficulty": "beginner",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["html", "css", "javascript"],
+        "key_technologies": ["HTML", "CSS", "JavaScript", "React/Angular/Vue"]
+      },
+      {
+        "path": "/backend",
+        "title": "Backend Development", 
+        "difficulty": "intermediate",
+        "estimated_time": "8-15 months",
+        "prerequisites": ["programming fundamentals", "databases"],
+        "key_technologies": ["Server languages", "APIs", "Databases", "Security"]
+      },
+      {
+        "path": "/full-stack",
+        "title": "Full Stack Development",
+        "difficulty": "advanced",
+        "estimated_time": "12-24 months", 
+        "prerequisites": ["frontend", "backend"],
+        "key_technologies": ["Frontend + Backend + DevOps"]
+      }
+    ],
+    "programming_languages": [
+      {
+        "path": "/javascript",
+        "title": "JavaScript",
+        "difficulty": "beginner",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["html", "css"],
+        "key_technologies": ["ES6+", "DOM", "Async/Await", "Node.js"]
+      },
+      {
+        "path": "/typescript",
+        "title": "TypeScript",
+        "difficulty": "intermediate",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["javascript"],
+        "key_technologies": ["Static typing", "Interfaces", "Generics", "Advanced types"]
+      },
+      {
+        "path": "/python",
+        "title": "Python",
+        "difficulty": "beginner",
+        "estimated_time": "4-6 months",
+        "prerequisites": ["programming basics"],
+        "key_technologies": ["Syntax", "OOP", "Libraries", "Data structures"]
+      },
+      {
+        "path": "/java",
+        "title": "Java",
+        "difficulty": "intermediate",
+        "estimated_time": "6-10 months",
+        "prerequisites": ["programming basics", "oop concepts"],
+        "key_technologies": ["JVM", "Spring", "Maven/Gradle", "Enterprise patterns"]
+      },
+      {
+        "path": "/cpp",
+        "title": "C++",
+        "difficulty": "advanced",
+        "estimated_time": "8-12 months",
+        "prerequisites": ["c programming", "memory management"],
+        "key_technologies": ["STL", "Templates", "Memory management", "Performance"]
+      },
+      {
+        "path": "/golang",
+        "title": "Go (Golang)",
+        "difficulty": "intermediate",
+        "estimated_time": "3-6 months",
+        "prerequisites": ["programming basics"],
+        "key_technologies": ["Goroutines", "Channels", "Interfaces", "Concurrency"]
+      },
+      {
+        "path": "/rust",
+        "title": "Rust",
+        "difficulty": "advanced",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["systems programming", "memory concepts"],
+        "key_technologies": ["Ownership", "Borrowing", "Memory safety", "Performance"]
+      },
+      {
+        "path": "/php",
+        "title": "PHP",
+        "difficulty": "beginner",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["html", "web basics"],
+        "key_technologies": ["Syntax", "Laravel", "Composer", "Web development"]
+      },
+      {
+        "path": "/kotlin",
+        "title": "Kotlin",
+        "difficulty": "intermediate",
+        "estimated_time": "3-6 months",
+        "prerequisites": ["java", "android basics"],
+        "key_technologies": ["Coroutines", "Null safety", "Extension functions", "Android"]
+      },
+      {
+        "path": "/swift-ui",
+        "title": "SwiftUI",
+        "difficulty": "intermediate",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["swift", "ios basics"],
+        "key_technologies": ["Declarative UI", "State management", "iOS", "macOS"]
+      },
+      {
+        "path": "/shell-bash",
+        "title": "Shell/Bash",
+        "difficulty": "beginner",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["command line basics"],
+        "key_technologies": ["Scripting", "Automation", "System administration", "DevOps"]
+      }
+    ],
+    "frontend_frameworks": [
+      {
+        "path": "/react",
+        "title": "React",
+        "difficulty": "intermediate",
+        "estimated_time": "3-6 months",
+        "prerequisites": ["javascript", "html", "css"],
+        "key_technologies": ["Components", "Hooks", "State management", "JSX"]
+      },
+      {
+        "path": "/angular",
+        "title": "Angular",
+        "difficulty": "advanced",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["typescript", "javascript", "html", "css"],
+        "key_technologies": ["Components", "Services", "RxJS", "TypeScript"]
+      },
+      {
+        "path": "/vue",
+        "title": "Vue.js",
+        "difficulty": "intermediate",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["javascript", "html", "css"],
+        "key_technologies": ["Components", "Directives", "Vuex", "Single File Components"]
+      },
+      {
+        "path": "/nextjs",
+        "title": "Next.js",
+        "difficulty": "intermediate",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["react", "javascript"],
+        "key_technologies": ["SSR", "Static generation", "API routes", "Performance"]
+      },
+      {
+        "path": "/html",
+        "title": "HTML",
+        "difficulty": "beginner",
+        "estimated_time": "1-2 months",
+        "prerequisites": [],
+        "key_technologies": ["Semantic markup", "Forms", "Accessibility", "SEO basics"]
+      },
+      {
+        "path": "/css",
+        "title": "CSS",
+        "difficulty": "beginner",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["html"],
+        "key_technologies": ["Flexbox", "Grid", "Responsive design", "Animations"]
+      }
+    ],
+    "backend_frameworks": [
+      {
+        "path": "/nodejs",
+        "title": "Node.js",
+        "difficulty": "intermediate",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["javascript", "web fundamentals"],
+        "key_technologies": ["Express.js", "NPM", "Async programming", "REST APIs"]
+      },
+      {
+        "path": "/spring-boot",
+        "title": "Spring Boot",
+        "difficulty": "intermediate",
+        "estimated_time": "6-10 months",
+        "prerequisites": ["java", "oop", "web basics"],
+        "key_technologies": ["Spring Framework", "Dependency injection", "JPA", "Microservices"]
+      },
+      {
+        "path": "/laravel",
+        "title": "Laravel",
+        "difficulty": "intermediate",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["php", "mvc concepts", "databases"],
+        "key_technologies": ["Eloquent ORM", "Blade templating", "Artisan", "MVC"]
+      },
+      {
+        "path": "/aspnet-core",
+        "title": "ASP.NET Core",
+        "difficulty": "intermediate",
+        "estimated_time": "6-10 months",
+        "prerequisites": ["c#", ".net", "web development"],
+        "key_technologies": ["MVC", "Web API", "Entity Framework", "Dependency injection"]
+      }
+    ],
+    "mobile_development": [
+      {
+        "path": "/android",
+        "title": "Android Development",
+        "difficulty": "intermediate",
+        "estimated_time": "8-12 months",
+        "prerequisites": ["java", "kotlin", "oop"],
+        "key_technologies": ["Android SDK", "Activities", "Fragments", "Material Design"]
+      },
+      {
+        "path": "/ios",
+        "title": "iOS Development",
+        "difficulty": "intermediate",
+        "estimated_time": "8-12 months",
+        "prerequisites": ["swift", "oop", "xcode"],
+        "key_technologies": ["UIKit", "SwiftUI", "Core Data", "App Store guidelines"]
+      },
+      {
+        "path": "/react-native",
+        "title": "React Native",
+        "difficulty": "intermediate",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["react", "javascript", "mobile concepts"],
+        "key_technologies": ["Cross-platform", "Native modules", "Navigation", "State management"]
+      },
+      {
+        "path": "/flutter",
+        "title": "Flutter",
+        "difficulty": "intermediate",
+        "estimated_time": "6-10 months",
+        "prerequisites": ["dart", "mobile concepts"],
+        "key_technologies": ["Widgets", "State management", "Cross-platform", "Material/Cupertino"]
+      }
+    ],
+    "devops_cloud": [
+      {
+        "path": "/devops",
+        "title": "DevOps",
+        "difficulty": "intermediate",
+        "estimated_time": "8-15 months",
+        "prerequisites": ["linux", "networking", "programming basics"],
+        "key_technologies": ["CI/CD", "Infrastructure as Code", "Monitoring", "Automation"]
+      },
+      {
+        "path": "/aws",
+        "title": "Amazon Web Services",
+        "difficulty": "intermediate",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["cloud concepts", "networking"],
+        "key_technologies": ["EC2", "S3", "Lambda", "VPC", "IAM"]
+      },
+      {
+        "path": "/docker",
+        "title": "Docker",
+        "difficulty": "beginner",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["linux basics", "command line"],
+        "key_technologies": ["Containerization", "Images", "Compose", "Networking"]
+      },
+      {
+        "path": "/kubernetes",
+        "title": "Kubernetes",
+        "difficulty": "advanced",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["docker", "container concepts", "networking"],
+        "key_technologies": ["Orchestration", "Pods", "Services", "Deployments"]
+      },
+      {
+        "path": "/terraform",
+        "title": "Terraform",
+        "difficulty": "intermediate",
+        "estimated_time": "3-6 months",
+        "prerequisites": ["cloud platforms", "infrastructure basics"],
+        "key_technologies": ["Infrastructure as Code", "State management", "Providers", "Modules"]
+      },
+      {
+        "path": "/linux",
+        "title": "Linux",
+        "difficulty": "beginner",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["computer basics"],
+        "key_technologies": ["Command line", "File systems", "Processes", "Shell scripting"]
+      },
+      {
+        "path": "/cloudflare",
+        "title": "Cloudflare",
+        "difficulty": "beginner",
+        "estimated_time": "1-3 months",
+        "prerequisites": ["web basics", "dns concepts"],
+        "key_technologies": ["CDN", "Security", "Workers", "DNS management"]
+      }
+    ],
+    "data_ai": [
+      {
+        "path": "/data-analyst",
+        "title": "Data Analyst",
+        "difficulty": "beginner",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["statistics", "sql basics"],
+        "key_technologies": ["SQL", "Excel", "Python/R", "Visualization tools"]
+      },
+      {
+        "path": "/data-engineer",
+        "title": "Data Engineer",
+        "difficulty": "intermediate",
+        "estimated_time": "8-15 months",
+        "prerequisites": ["programming", "databases", "cloud basics"],
+        "key_technologies": ["ETL/ELT", "Big Data", "Cloud platforms", "Data pipelines"]
+      },
+      {
+        "path": "/ai-data-scientist",
+        "title": "AI Data Scientist",
+        "difficulty": "advanced",
+        "estimated_time": "12-24 months",
+        "prerequisites": ["statistics", "programming", "machine learning"],
+        "key_technologies": ["ML algorithms", "Deep learning", "Python", "Statistical modeling"]
+      },
+      {
+        "path": "/ai-engineer",
+        "title": "AI Engineer",
+        "difficulty": "advanced",
+        "estimated_time": "10-18 months",
+        "prerequisites": ["programming", "machine learning", "software engineering"],
+        "key_technologies": ["MLOps", "Model deployment", "AI frameworks", "Production systems"]
+      },
+      {
+        "path": "/machine-learning",
+        "title": "Machine Learning",
+        "difficulty": "intermediate",
+        "estimated_time": "8-15 months",
+        "prerequisites": ["programming", "statistics", "linear algebra"],
+        "key_technologies": ["Supervised/Unsupervised learning", "Deep learning", "Feature engineering", "Model evaluation"]
+      },
+      {
+        "path": "/mlops",
+        "title": "MLOps",
+        "difficulty": "advanced",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["machine learning", "devops", "cloud platforms"],
+        "key_technologies": ["Model versioning", "CI/CD for ML", "Monitoring", "Deployment"]
+      },
+      {
+        "path": "/prompt-engineering",
+        "title": "Prompt Engineering",
+        "difficulty": "beginner",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["basic AI understanding"],
+        "key_technologies": ["LLM prompting", "Chain-of-thought", "Few-shot learning", "AI safety"]
+      },
+      {
+        "path": "/ai-agents",
+        "title": "AI Agents",
+        "difficulty": "advanced",
+        "estimated_time": "6-10 months",
+        "prerequisites": ["machine learning", "programming", "system design"],
+        "key_technologies": ["Agent frameworks", "RAG", "Tool usage", "Multi-agent systems"]
+      },
+      {
+        "path": "/ai-red-teaming",
+        "title": "AI Red Teaming",
+        "difficulty": "advanced",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["ai/ml knowledge", "security basics", "testing"],
+        "key_technologies": ["Adversarial testing", "AI security", "Bias detection", "Safety evaluation"]
+      },
+      {
+        "path": "/bi-analyst",
+        "title": "Business Intelligence Analyst",
+        "difficulty": "intermediate",
+        "estimated_time": "6-10 months",
+        "prerequisites": ["data analysis", "business knowledge"],
+        "key_technologies": ["BI tools", "Data warehousing", "Reporting", "Dashboard design"]
+      }
+    ],
+    "databases": [
+      {
+        "path": "/sql",
+        "title": "SQL",
+        "difficulty": "beginner",
+        "estimated_time": "3-6 months",
+        "prerequisites": ["basic programming", "data concepts"],
+        "key_technologies": ["Queries", "Joins", "Indexing", "Database design"]
+      },
+      {
+        "path": "/mongodb",
+        "title": "MongoDB",
+        "difficulty": "intermediate",
+        "estimated_time": "3-6 months",
+        "prerequisites": ["database basics", "json"],
+        "key_technologies": ["NoSQL", "Documents", "Aggregation", "Sharding"]
+      },
+      {
+        "path": "/postgresql-dba",
+        "title": "PostgreSQL DBA",
+        "difficulty": "advanced",
+        "estimated_time": "8-15 months",
+        "prerequisites": ["sql", "database administration", "linux"],
+        "key_technologies": ["Administration", "Performance tuning", "Backup/Recovery", "Replication"]
+      },
+      {
+        "path": "/redis",
+        "title": "Redis",
+        "difficulty": "intermediate",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["database basics", "caching concepts"],
+        "key_technologies": ["In-memory storage", "Caching", "Pub/Sub", "Data structures"]
+      },
+      {
+        "path": "/elasticsearch",
+        "title": "Elasticsearch",
+        "difficulty": "intermediate",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["database basics", "search concepts"],
+        "key_technologies": ["Search engine", "Indexing", "Aggregations", "Analytics"]
+      }
+    ],
+    "security": [
+      {
+        "path": "/cyber-security",
+        "title": "Cybersecurity",
+        "difficulty": "intermediate",
+        "estimated_time": "10-18 months",
+        "prerequisites": ["networking", "operating systems", "programming"],
+        "key_technologies": ["Network security", "Cryptography", "Incident response", "Compliance"]
+      },
+      {
+        "path": "/api-security-best-practices",
+        "title": "API Security Best Practices",
+        "difficulty": "intermediate",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["api development", "security basics"],
+        "key_technologies": ["Authentication", "Authorization", "OWASP", "Rate limiting"]
+      }
+    ],
+    "architecture_design": [
+      {
+        "path": "/software-architect",
+        "title": "Software Architect",
+        "difficulty": "advanced",
+        "estimated_time": "12-24 months",
+        "prerequisites": ["senior development experience", "system design"],
+        "key_technologies": ["Architecture patterns", "Scalability", "Trade-offs", "Leadership"]
+      },
+      {
+        "path": "/software-design-architecture",
+        "title": "Software Design & Architecture",
+        "difficulty": "intermediate",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["programming experience", "design patterns"],
+        "key_technologies": ["Design patterns", "SOLID principles", "Clean architecture", "Microservices"]
+      },
+      {
+        "path": "/system-design",
+        "title": "System Design",
+        "difficulty": "intermediate",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["backend development", "databases", "networking"],
+        "key_technologies": ["Scalability", "Load balancing", "Caching", "Distributed systems"]
+      },
+      {
+        "path": "/api-design",
+        "title": "API Design",
+        "difficulty": "intermediate",
+        "estimated_time": "3-6 months",
+        "prerequisites": ["backend development", "web services"],
+        "key_technologies": ["REST", "GraphQL", "Documentation", "Versioning"]
+      },
+      {
+        "path": "/design-system",
+        "title": "Design System",
+        "difficulty": "intermediate",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["frontend development", "ux/ui basics"],
+        "key_technologies": ["Component libraries", "Style guides", "Consistency", "Collaboration"]
+      }
+    ],
+    "game_development": [
+      {
+        "path": "/game-developer",
+        "title": "Game Developer",
+        "difficulty": "intermediate",
+        "estimated_time": "10-18 months",
+        "prerequisites": ["programming", "mathematics", "graphics basics"],
+        "key_technologies": ["Game engines", "Graphics programming", "Physics", "Game design"]
+      },
+      {
+        "path": "/server-side-game-developer",
+        "title": "Server-side Game Developer",
+        "difficulty": "advanced",
+        "estimated_time": "8-15 months",
+        "prerequisites": ["backend development", "networking", "game concepts"],
+        "key_technologies": ["Multiplayer systems", "Real-time networking", "Scalability", "Anti-cheat"]
+      }
+    ],
+    "leadership_management": [
+      {
+        "path": "/engineering-manager",
+        "title": "Engineering Manager",
+        "difficulty": "advanced",
+        "estimated_time": "12-24 months",
+        "prerequisites": ["senior engineering experience", "leadership skills"],
+        "key_technologies": ["Team management", "Project planning", "Performance reviews", "Technical strategy"]
+      },
+      {
+        "path": "/product-manager",
+        "title": "Product Manager",
+        "difficulty": "intermediate",
+        "estimated_time": "8-15 months",
+        "prerequisites": ["business understanding", "technical knowledge"],
+        "key_technologies": ["Product strategy", "Roadmapping", "Analytics", "User research"]
+      },
+      {
+        "path": "/technical-writer",
+        "title": "Technical Writer",
+        "difficulty": "beginner",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["writing skills", "technical understanding"],
+        "key_technologies": ["Documentation tools", "API documentation", "User guides", "Content strategy"]
+      },
+      {
+        "path": "/devrel",
+        "title": "Developer Relations",
+        "difficulty": "intermediate",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["development experience", "communication skills"],
+        "key_technologies": ["Community building", "Content creation", "Public speaking", "Developer advocacy"]
+      }
+    ],
+    "web_technologies": [
+      {
+        "path": "/graphql",
+        "title": "GraphQL",
+        "difficulty": "intermediate",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["api development", "databases"],
+        "key_technologies": ["Query language", "Schema design", "Resolvers", "Subscriptions"]
+      },
+      {
+        "path": "/wordpress",
+        "title": "WordPress",
+        "difficulty": "beginner",
+        "estimated_time": "3-6 months",
+        "prerequisites": ["php", "web basics"],
+        "key_technologies": ["CMS", "Themes", "Plugins", "Custom post types"]
+      },
+      {
+        "path": "/blockchain",
+        "title": "Blockchain",
+        "difficulty": "advanced",
+        "estimated_time": "8-15 months",
+        "prerequisites": ["programming", "cryptography basics", "networking"],
+        "key_technologies": ["Smart contracts", "Distributed systems", "Consensus algorithms", "DeFi"]
+      }
+    ],
+    "best_practices": [
+      {
+        "path": "/code-review",
+        "title": "Code Review",
+        "difficulty": "beginner",
+        "estimated_time": "1-3 months",
+        "prerequisites": ["programming experience"],
+        "key_technologies": ["Review process", "Quality standards", "Feedback", "Collaboration"]
+      },
+      {
+        "path": "/code-review-best-practices",
+        "title": "Code Review Best Practices",
+        "difficulty": "intermediate",
+        "estimated_time": "2-4 months",
+        "prerequisites": ["code review experience"],
+        "key_technologies": ["Advanced techniques", "Team processes", "Tools", "Culture"]
+      },
+      {
+        "path": "/frontend-performance-best-practices",
+        "title": "Frontend Performance Best Practices",
+        "difficulty": "intermediate",
+        "estimated_time": "3-6 months",
+        "prerequisites": ["frontend development"],
+        "key_technologies": ["Optimization", "Loading strategies", "Bundling", "Metrics"]
+      },
+      {
+        "path": "/backend-performance-best-practices",
+        "title": "Backend Performance Best Practices",
+        "difficulty": "intermediate",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["backend development"],
+        "key_technologies": ["Database optimization", "Caching", "API performance", "Monitoring"]
+      },
+      {
+        "path": "/aws-best-practices",
+        "title": "AWS Best Practices",
+        "difficulty": "intermediate",
+        "estimated_time": "3-6 months",
+        "prerequisites": ["aws basics", "cloud concepts"],
+        "key_technologies": ["Security", "Cost optimization", "Architecture patterns", "Well-Architected Framework"]
+      }
+    ],
+    "fundamentals": [
+      {
+        "path": "/computer-science",
+        "title": "Computer Science",
+        "difficulty": "intermediate",
+        "estimated_time": "12-24 months",
+        "prerequisites": ["mathematics", "logic"],
+        "key_technologies": ["Algorithms", "Data structures", "Computer systems", "Theory"]
+      },
+      {
+        "path": "/datastructures-and-algorithms",
+        "title": "Data Structures and Algorithms",
+        "difficulty": "intermediate",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["programming basics"],
+        "key_technologies": ["Arrays", "Trees", "Graphs", "Sorting", "Searching"]
+      },
+      {
+        "path": "/git-github",
+        "title": "Git & GitHub",
+        "difficulty": "beginner",
+        "estimated_time": "1-3 months",
+        "prerequisites": ["command line basics"],
+        "key_technologies": ["Version control", "Branching", "Merging", "Collaboration"]
+      }
+    ],
+    "design_ux": [
+      {
+        "path": "/ux-design",
+        "title": "UX Design",
+        "difficulty": "beginner",
+        "estimated_time": "6-12 months",
+        "prerequisites": ["design thinking", "user research basics"],
+        "key_technologies": ["User research", "Wireframing", "Prototyping", "Usability testing"]
+      }
+    ],
+    "testing_qa": [
+      {
+        "path": "/qa",
+        "title": "Quality Assurance",
+        "difficulty": "beginner",
+        "estimated_time": "4-8 months",
+        "prerequisites": ["software development basics"],
+        "key_technologies": ["Test planning", "Manual testing", "Automation", "Bug tracking"]
+      }
+    ],
+    "projects": [
+      "/backend/projects",
+      "/devops/projects",
+      "/frontend/projects"
+    ],
+    "tools": [
+      "/devops/deployment-tools",
+      "/devops/testing-tools"
+    ],
+    "guides_comparisons": [
+      "/golang/vs-rust",
+      "/python/is-python-hard-to-learn",
+      "/python/python-vs-javascript-the-ultimate-guide-for-2025",
+      "/data-analyst/what-does-a-data-analyst-do"
+    ],
+    "interview_questions": [
+      "/questions/cpp",
+      "/questions/python", 
+      "/questions/rest-api",
+      "/questions/system-design"
+    ]
+  }
+}
