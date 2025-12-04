@@ -1,5 +1,5 @@
 {
-  "data": {
+  "roadmaps ": {
     "core_development": [
       {
         "path": "/frontend",
@@ -641,27 +641,7 @@
         "prerequisites": ["software development basics"],
         "key_technologies": ["Test planning", "Manual testing", "Automation", "Bug tracking"]
       }
-    ],
-    "projects": [
-      "/backend/projects",
-      "/devops/projects",
-      "/frontend/projects"
-    ],
-    "tools": [
-      "/devops/deployment-tools",
-      "/devops/testing-tools"
-    ],
-    "guides_comparisons": [
-      "/golang/vs-rust",
-      "/python/is-python-hard-to-learn",
-      "/python/python-vs-javascript-the-ultimate-guide-for-2025",
-      "/data-analyst/what-does-a-data-analyst-do"
-    ],
-    "interview_questions": [
-      "/questions/cpp",
-      "/questions/python", 
-      "/questions/rest-api",
-      "/questions/system-design"
     ]
+    
   }
 }
